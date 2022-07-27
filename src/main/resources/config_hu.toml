@@ -1,0 +1,40 @@
+[Settings]
+    luckpermsIntegration=true
+    globalChat=true
+[SpamFilter]
+    enabled=true
+    spamFilterRepeat=true
+    spamTimeoutMillis=500
+    maxWarningsBeforeMute=3
+    spamMuteSeconds=60
+[Format]
+    [Format.MSG]
+        sendFormat="&7>> &8én &7-> &8<receiver> &6: &7<message>"
+        receiveFormat="&7>> &8<sender> &7-> &8én &6: &7<message>"
+    [Format.Chat]
+        format="&8>> &9<sender> &7[<sender_group>&7] &6: &r<message>"
+    [Format.Alert]
+        format="&c>> &e<message>"
+[Usages]
+    alert="/alert <üzenet>"
+    mute="/mute <?s/?m/?h>"
+    msg="/msg <játékos> <üzenet>"
+    reply="/r <üzenet>"
+[Messages]
+    wrongUsage="&cNem jól használod. Használat: &6<usage>"
+    spamWarning="&cNe spamelj!"
+    haveBeenMuted="&c<sender> lenémított téged &6<amount> <unit>&c."
+    haveBeenMutedReason="&c<sender> lenémított téged &6<amount> <unit>&c, indok: <reason>"
+    muted="&cNémítva vagy &6<amount> <unit>&c."
+    muteStaffMessage="&e<sender> &6lenémította &e<receiver> &6játékost &e<amount> <unit>&6."
+    muteStaffMessageReason="&e<sender> &6lenémította &e<receiver> &6játékost &e<amount> <unit>&6, indok: <reason>"
+    playerNotFound="&cA játékos nem található."
+    noPerm="&cNincs jogod ehhez."
+    noReply="&cNincs akinek válaszolhatnál."
+    second="másodpercre"
+    seconds="másodpercre"
+    minute="percre"
+    minutes="percre"
+    hour="órára"
+    hours="órára"
+    server="Szerver"

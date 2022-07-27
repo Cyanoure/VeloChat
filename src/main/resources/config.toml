@@ -1,0 +1,40 @@
+[Settings]
+    luckpermsIntegration=true
+    globalChat=true
+[SpamFilter]
+    enabled=true
+    spamFilterRepeat=true
+    spamTimeoutMillis=500
+    maxWarningsBeforeMute=3
+    spamMuteSeconds=60
+[Format]
+    [Format.MSG]
+        sendFormat="&7>> &8me &7-> &8<receiver> &6: &7<message>"
+        receiveFormat="&7>> &8<sender> &7-> &8me &6: &7<message>"
+    [Format.Chat]
+        format="&8>> &9<sender> &7[<sender_group>&7] &6: &r<message>"
+    [Format.Alert]
+        format="&c>> &e<message>"
+[Usages]
+    alert="/alert <message>"
+    mute="/mute <?s/?m/?h>"
+    msg="/msg <playername> <message>"
+    reply="/r <message>"
+[Messages]
+    wrongUsage="&cWrong usage. Usage: &6<usage>"
+    spamWarning="&cDo not spam!"
+    haveBeenMuted="&c<sender> muted you for &6<amount> <unit>&c."
+    haveBeenMutedReason="&c<sender> muted you for &6<amount> <unit>&c, reason: <reason>"
+    muted="&cYou're muted for &6<amount> <unit>&c."
+    muteStaffMessage="&e<sender> &6muted &e<receiver> &6for &e<amount> <unit>&6."
+    muteStaffMessageReason="&e<sender> &6muted &e<receiver> &6for &e<amount> <unit>&6, reason: <reason>"
+    playerNotFound="&cPlayer not found."
+    noPerm="&cYou do not have permission for that."
+    noReply="&cThere is no player to reply to."
+    second="second"
+    seconds="seconds"
+    minute="minute"
+    minutes="minutes"
+    hour="hour"
+    hours="hours"
+    server="Server"
